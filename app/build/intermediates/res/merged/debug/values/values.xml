@@ -212,7 +212,12 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">CCPDApp</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="appointment_button">Appointments</string>
+    <string name="faq_button_str">FAQ</string>
+    <string name="hours">Hours will go here</string>
+    <string name="hours_label">Hours</string>
+    <string name="info_button">Information</string>
+    <string name="main_label">Kalamazoo College CCPD</string>
     <!-- From: file:/D:/Programming/Programming_Projects/CCPDApp/CCPDApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>

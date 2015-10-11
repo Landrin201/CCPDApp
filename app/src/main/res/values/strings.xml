@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">CCPDApp</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Strings for the main activity -->
+    <string name="main_label">Kalamazoo College CCPD</string>
+    <string name="hours_label">Hours</string>
+    <string name="hours">Hours will go here</string>
+    <string name="faq_button_str">FAQ</string>
+    <string name="appointment_button">Appointments</string>
+    <string name="info_button">Information</string>
+
+
 </resources>
