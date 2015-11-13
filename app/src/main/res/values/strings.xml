@@ -10,6 +10,8 @@
     <string name="faq_button_str">FAQ</string>
     <string name="appointment_button">Appointments</string>
     <string name="info_button">Information</string>
+    <string name="title_activity_faqsubmission">FAQSubmission</string>
+    <string name="title_activity_request_appointment_time">RequestAppointmentTime</string>
 
 
 </resources>

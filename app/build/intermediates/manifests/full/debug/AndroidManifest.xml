@@ -22,6 +22,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.kalamazoo.ccpd.ccpdapp.FAQSubmission"
+            android:label="@string/title_activity_faqsubmission"
+            android:parentActivityName="com.kalamazoo.ccpd.ccpdapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalamazoo.ccpd.ccpdapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.kalamazoo.ccpd.ccpdapp.RequestAppointmentTime"
+            android:label="@string/title_activity_request_appointment_time"
+            android:parentActivityName="com.kalamazoo.ccpd.ccpdapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kalamazoo.ccpd.ccpdapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

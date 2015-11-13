@@ -51,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/faq_button_str"
+        android:onClick="FAQSubmit"
         android:layout_above="@+id/mainWebView"
         android:layout_alignLeft="@+id/mainWebView"
         android:layout_alignStart="@+id/mainWebView"
@@ -62,6 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/appointment_button"
+        android:onClick="appointmentSubmit"
         android:layout_above="@+id/mainWebView"
         android:layout_centerHorizontal="true" />
 
@@ -69,9 +71,9 @@
         android:id="@+id/mainInfoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/mainWebView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:text="@string/info_button"/>
+        android:text="@string/info_button"
+        android:layout_above="@+id/mainWebView"
+        android:layout_toRightOf="@+id/mainAppointmentButton"
+        android:layout_toEndOf="@+id/mainAppointmentButton" />
 
 </RelativeLayout>
